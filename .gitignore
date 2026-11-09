@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+
+# Your paintings and tool output stay on your machine.
+session/
+out/
+planner/out/
+
+# Your reference photo and its config. Copy reference.example.json to start.
+reference/*
+!reference/README.md
+!reference/reference.example.json

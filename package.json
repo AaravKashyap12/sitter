@@ -1,0 +1,20 @@
+{
+  "name": "sitter",
+  "version": "0.1.0",
+  "description": "A portrait painting studio built for computer-use agents. Every input is logged and replays as a frame-exact timelapse.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5195 --strictPort",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}
